@@ -7,6 +7,8 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import('node_modules/todomvc-common/base.js');
+  app.import('node_modules/todomvc-app-css/index.css');
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
